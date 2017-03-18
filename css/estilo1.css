@@ -1,0 +1,63 @@
+body {
+	background-color:#111111;
+	font-family: comic, Georgia, Serif;
+}
+@media (min-width: 1080px) {
+	#header {
+		font-family: comic, Georgia, Serif;
+		background-color:#444444;
+		color:white;
+		text-align:center;
+		padding:50px;
+	}
+	#navegacion {
+		line-height:50px;
+		background-image: url("../images/backgroundNavegacion.jpg");
+		height:300px;
+		width:200px;
+		float:left;
+		padding:5px;
+	}
+	#section {
+		width:750px;
+		color:#888888;
+		float:left;
+		padding:30px;
+	}
+	#footer {
+		background-color:#444444;
+		color:white;
+		clear:both;
+		text-align:center;
+		padding:10px;
+	}
+}
+
+@media (max-width: 1080px) {
+	#header {
+		font-family: comic, Georgia, Serif;
+		background-color:#444444;
+		color:white;
+		text-align:center;
+		padding:50px;
+	}
+	#navegacion {
+		text-align:center;
+		line-height:30px;
+		background-image: url("../images/backgroundNavegacion.jpg");
+		height:100%;
+		width:100%;
+	}
+	#section {
+		height:100%;
+		color:#888888;
+		padding:30px;
+	}
+	#footer {
+		background-color:#444444;
+		color:white;
+		clear:both;
+		text-align:center;
+		padding:10px;
+	}
+}
